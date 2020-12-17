@@ -52,6 +52,7 @@ public class prg1 {
                         System.out.println("Current item " + s.charAt(i) + " does not match last open parenthesis : " + stack[qind]);
                         output =false;
                     } else {
+                        // this is the else statement that I missed yesterday
                         qind--;
                     }
                 }
